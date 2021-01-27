@@ -22,7 +22,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer px-0 px-lg-3">
-        <Container fluid>
+        {/* <Container fluid>
           <nav>
             <ul className="footer-menu">
               <li>
@@ -52,7 +52,7 @@ class Footer extends Component {
               love for a better web
             </p>
           </nav>
-        </Container>
+        </Container> */}
       </footer>
     );
   }

@@ -41,19 +41,19 @@ function Header() {
         return routes[i].name;
       }
     }
-    return "Brand";
+    return "Home";
   };
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
         <div className="d-flex justify-content-center align-items-center ml-2 ml-lg-0">
-          <Button
+          {/* <Button
             variant="dark"
             className="d-lg-none btn-fill d-flex justify-content-center align-items-center rounded-circle p-2"
             onClick={mobileSidebarToggle}
           >
             <i className="fas fa-ellipsis-v"></i>
-          </Button>
+          </Button> */}
           <Navbar.Brand
             href="#home"
             onClick={(e) => e.preventDefault()}
@@ -68,7 +68,7 @@ function Header() {
           <span className="navbar-toggler-bar burger-lines"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="nav mr-auto" navbar>
+          {/* <Nav className="nav mr-auto" navbar>
             <Nav.Item>
               <Nav.Link
                 data-toggle="dropdown"
@@ -135,7 +135,7 @@ function Header() {
                 <span className="d-lg-block"> Search</span>
               </Nav.Link>
             </Nav.Item>
-          </Nav>
+          </Nav> */}
           <Nav className="ml-auto" navbar>
             <Nav.Item>
               <Nav.Link
@@ -146,7 +146,7 @@ function Header() {
                 <span className="no-icon">Account</span>
               </Nav.Link>
             </Nav.Item>
-            <Dropdown as={Nav.Item}>
+            {/* <Dropdown as={Nav.Item}>
               <Dropdown.Toggle
                 aria-expanded={false}
                 aria-haspopup={true}
@@ -191,7 +191,7 @@ function Header() {
                   Separated link
                 </Dropdown.Item>
               </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
             <Nav.Item>
               <Nav.Link
                 className="m-0"
